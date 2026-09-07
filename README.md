@@ -1,6 +1,6 @@
 # RunRemote
 
-VB6 RunRemote utility from Dave Robinson's Historical Dev `VB` folder for launching or controlling remote processes. Distinct from the later VB.NET Remoting.Common RunRemote repo.
+VB6 Run Remote tool (`RunRemote.exe`) that lists target servers and copies deployment/script packages from UNC sources onto each host (WMI `Win32_Process` helpers in `modExec` for remote execute/kill; Task Scheduler reference). Distinct from the later VB.NET Remoting.Common RunRemote repo. Open `RunRemote.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 RunRemote utility from Dave Robinson's Historical Dev `VB` folder for launch
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `RunRemote` (`RunRemote.vbp`) | VB6 | WinForms exe | RunRemote |
+| `RunRemote` (`RunRemote.vbp`) | VB6 | WinForms exe | Copy scripts/packages to remote servers and run remote processes. |
 
 ## How to open
 
